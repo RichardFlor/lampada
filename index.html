@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css"> 
-      <title>Lâmpada</title>
+   <script src="lampada.js" defer></script>
+    <title>Lâmpada</title>
 </head>
 <body>
     <header>
@@ -13,10 +14,10 @@
         </h1>
     </header>
     <main>
-        <img src="img/desligada.jpg" alt="">
+        <img id="lampada" src="img/desligada.jpg" alt="">
         <div>
-        <button>Ligar</button>
-        <button>Desligar</button>
+        <button id="ligar">Ligar</button>
+        <button id="desligar" disabled>Desligar</button>
     </div>
     </main>
     <footer>
